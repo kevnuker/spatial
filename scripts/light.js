@@ -117,8 +117,9 @@ var turbine = new turbineClass();
 turbine.init();
 turbine.animate();
 
-window.addEventListener('message', function(event) {
-    if ('on' === event.data) {
+function callTurbineFrame(data) {
+
+    if ('on' === data) {
         if (turbine.stop) {
             turbine.stop = false;
         }
@@ -128,7 +129,7 @@ window.addEventListener('message', function(event) {
         }
         turbine.timerStart = new Date();
     }
-    if ('off' === event.data) {
+    if ('off' === data) {
         turbine.stop = true;
         if (turbine.timerStart === 0) {
             return;
@@ -139,9 +140,9 @@ window.addEventListener('message', function(event) {
         turbine.timerStart = 0;
         postMessage();
     }
-});
+}
 
 function postMessage() {
     var switchFrame = this.parent.frames[0];
-    switchFrame.postMessage(turbine.time, '*');
+    switchFrame.callSwitchFrame(turbine.time);
 }
