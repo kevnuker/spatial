@@ -11,7 +11,7 @@ function stopTurbine() {
 }
 
 function callSwitchFrame(data) {
-    energyUsed = energyUsed + (.000002 * event.data);
+    energyUsed = energyUsed + (.000002 * data);
     document.getElementById('energy').innerHTML = "Energy Used = " + mRound(energyUsed, 4) + "Wh"
 }
 
