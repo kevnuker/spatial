@@ -1,0 +1,16 @@
+html,body,.container {
+     height:100%;
+}
+ .container {
+     display:table;
+     width: 100%;
+     padding: 20px 0 0 0;
+     box-sizing: border-box;
+}
+ .row {
+     height: 100%;
+     display: table-row;
+}
+ .viewP {
+     height: 100%;
+}

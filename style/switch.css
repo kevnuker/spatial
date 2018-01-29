@@ -1,0 +1,53 @@
+.threedbutton {
+     position: relative;
+     top: 0;
+     margin-top: 0;
+     margin-bottom: 10px;
+     padding: 1em 2em;
+     border: 0;
+     cursor: pointer;
+     font-size: 1.2em;
+     opacity: 0.9;
+     border-radius: 10px;
+}
+ .threedbutton:active {
+     box-shadow: none;
+     top: 10px;
+     margin-bottom: 0;
+}
+ .threedbutton:hover {
+     opacity: 1;
+}
+ .threedbutton:active, .threedbutton:focus {
+     outline: 0;
+}
+ .onColor{
+     box-shadow: 0 10px 0 0 #008000;
+     display: inline-block;
+     background: #006400;
+     color: #006400;
+     -webkit-text-fill-color: white;
+}
+ .offColor {
+     box-shadow: 0 10px 0 0 #F08080;
+     display: inline-block;
+     background: #CD5C5C;
+     color: #CD5C5C;
+     -webkit-text-fill-color: white;
+}
+ .txt {
+     text-align: center;
+     font-style: normal;
+     font-family: serif;
+     font-weight: bold;
+}
+ html, body {
+     height: 100%;
+     overflow: hidden;
+}
+ .container {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

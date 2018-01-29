@@ -1,0 +1,123 @@
+.meText {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.meTextFont {
+	font-size: 16px;
+}
+
+.meTextFont30 {
+	font-size: 20px;
+}
+
+.meTextAboutFont {
+	font-size: 40px;
+	color: white;
+}
+
+.meTextAboutContentFont {
+	font-size: 24px;
+	color: white;
+}
+
+.meTextAboutLinkFont {
+	font-size: 24px;
+	color: #E72400;
+}
+
+.meNav {
+	background-color: #fff;
+    border-bottom-color: #fff;
+    opacity: 0.8;
+}
+
+.noNavMarginBotton {
+	margin-bottom: 0px;
+    background-color: #0097FF;
+    border-bottom-color: #0097FF;
+    margin-left: : 0px;
+    margin-right: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.meGrey {
+	color: #424242;
+}
+
+.meSocialIconPadding {
+	padding-right: 12px;
+}
+
+.meVerticalBottomSpace {
+	margin-bottom: 60px;
+}
+
+.meVerticalTopSpace {
+	margin-top: 60px;
+}
+
+.meVerticalLineSpace {
+	margin-top: 20px;
+}
+
+.cf1 {
+	background-color: #0097FF;
+	border-color: #0097FF;
+	border-radius: 0px;
+}
+
+.meTextHighlight {
+  background-color: #D3D3D3;
+  border-color: #D3D3D3;
+  border-radius: 0px;
+}
+
+
+.bstyle {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+   .meTextFont30{
+      text-align: justify;
+   }
+}
+
+p{
+   text-align: left;
+}
+
+.bg {
+  background-image: url(../assets/img/about.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: .8;
+}
